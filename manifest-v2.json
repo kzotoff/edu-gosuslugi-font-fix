@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Edu CSS",
+    "short_name": "Edu CSS",
+    "description": "Font fix for edu.gosuslugi.ru",
+    "version": "0.1.0.0",
+    "author": "Kirill Zotov",
+    "icons": {
+        "32": "icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://edu.gosuslugi.ru/*"
+            ],
+            "css":[
+                "css.css"
+            ]
+        }
+    ]
+}
